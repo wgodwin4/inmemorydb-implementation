@@ -21,7 +21,7 @@ NUMEQUALTO value – Print out the number of variables that are currently set to
 END – Exit the program. Your program will always receive this as its last command. Commands will be fed to your program one at a time, with each command on its own line. Any output that your program generates should end with a newline character.
 
 
-## *Transaction Commands
+## *Transaction Commands*
 BEGIN – Open a new transaction block. Transaction blocks can be nested; a BEGIN can be issued inside of an existing block.
 
 ROLLBACK – Undo all of the commands issued in the most recent transaction block, and close the block. Print nothing if successful, or print NO TRANSACTION if no transaction is in progress.
